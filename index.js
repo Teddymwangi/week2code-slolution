@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const animalDetails = document.getElementById("animal-details");
 
     // Fetch animal data from the server
-    fetch("http://localhost:3000/characters")
+    fetch("https://my-json-server.typicode.com/Teddymwangi/week2code-solution")
         .then(response => response.json())
         .then(animals => {
             // Display animal names in the list
